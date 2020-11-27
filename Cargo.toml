@@ -1,12 +1,12 @@
 [package]
 name = "bulletproofs"
 # Before doing a release:
-# - update version field 
+# - update version field
 # - update html_root_url
 # - ensure yoloproofs was disabled in an atomic (revertable) commit
 # - update CHANGELOG
 version = "2.0.0"
-authors = ["Cathie Yun <cathieyun@gmail.com>", 
+authors = ["Cathie Yun <cathieyun@gmail.com>",
            "Henry de Valence <hdevalence@hdevalence.ca>",
            "Oleg Andreev <oleganza@gmail.com>"]
 readme = "README.md"
@@ -32,7 +32,7 @@ merlin = { version = "2", default-features = false }
 clear_on_drop = { version = "0.2", default-features = false, features = ["nightly"] }
 
 [dev-dependencies]
-hex = "0.3"
+hex = "0.4"
 criterion = "0.3"
 bincode = "1"
 rand_chacha = "0.2"
