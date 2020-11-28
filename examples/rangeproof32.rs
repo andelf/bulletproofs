@@ -41,7 +41,7 @@ fn main() {
     .expect("A real program could handle errors");
 
     let raw = proof.to_bytes();
-    println!("proof => {:?}", proof);
+    // println!("proof => {:?}", proof);
     println!("proof => {:?}", hex::encode(&raw));
     println!("proof size => {}", raw.len());
 
